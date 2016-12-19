@@ -25,7 +25,7 @@ cs = choosen_song.lower()
 youtube = "https://www.youtube.com/watch?v="
 
 #check and assign selected song.
-if(choose_song == "yemi"):
+if(choosen_song == "yemi"):
     song = youtube + "lFJW2od5q84"
 
 elif(choosen_song == "trey"):
