@@ -11,15 +11,15 @@ print "\nIts time to take some break!\n"
 time_breaks = raw_input("After how many hours would you like to take breaks?\n")
 break_frequency = raw_input("How many breaks do you require?\n")
 
-#Converting string to interger
+#Converting string to integer
 tb = int(time_breaks)
 bf = int(break_frequency)
 
-choose_song = raw_input("Select Prefered Song:\nEnter trey for Trey Songs Body to Body Collabo or\n"
+choosen_song = raw_input("Select Prefered Song:\nEnter trey for Trey Songs Body to Body Collabo or\n"
 "Enter yemi for Yemi Alade and Nyashinski Mungu Pekee\n")
 
 #convert choice to lower case
-cs = choose_song.lower()
+cs = choosen_song.lower()
 
 #define static part of Youtube URL
 youtube = "https://www.youtube.com/watch?v="
@@ -28,7 +28,7 @@ youtube = "https://www.youtube.com/watch?v="
 if(choose_song == "yemi"):
     song = youtube + "lFJW2od5q84"
 
-elif(choose_song == "trey"):
+elif(choosen_song == "trey"):
     song = youtube + "snDUXl_Wjto"
 else:
     print "Poor choice!"
